@@ -1,5 +1,5 @@
 import About from "../components/About";
-import Contacts from "../components/contacts";
+import Contacts from "../components/Contacts";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 
