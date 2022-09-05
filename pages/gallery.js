@@ -5,7 +5,7 @@ export default function Gallery({ videoData }) {
   return (
     <div className='h:screen max-w-[1240px] mx-auto p-4 mt-16 grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 '>
       <p>COMING SOON!</p>
-      {videoData?.map((video) => {
+      {/* {videoData?.map((video) => {
         <iframe
           width='560'
           height='315'
@@ -15,16 +15,16 @@ export default function Gallery({ videoData }) {
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowfullscreen
         ></iframe>;
-      })}
+      })} */}
     </div>
   );
 }
 
-export const getServerSideProps = async () => {
-  const query = "*[_type == 'yt_link']";
-  const videoData = await client.fetch(query);
+// export const getServerSideProps = async () => {
+//   const query = "*[_type == 'yt_link']";
+//   const videoData = await client.fetch(query);
 
-  return {
-    props: { videoData },
-  };
-};
+//   return {
+//     props: { videoData },
+//   };
+// };
