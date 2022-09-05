@@ -7,7 +7,8 @@ const Hero = () => {
     <div className='h-screen bg-heroImg bg-top bg-contain bg-no-repeat bg-fixed text-center flex flex-col items-center justify-center '>
       <div className='bg-bgColor/80 max-w-[1240px] p-4 backdrop-blur-md mx-auto mt-24 md:mt-48'>
         <h2 className='text-xl pb-2'>
-          Hi? I'm <span className='text-primary font-bold'>Tee</span> Founder of
+          Hi? I&apos;m <span className='text-primary font-bold'>Tee</span>{" "}
+          Founder of
         </h2>
         <h1 className='text-4xl font-bold text-primary pb-2'>
           The DancepirationKE
@@ -43,7 +44,7 @@ const Hero = () => {
             </button>
           </Link>
           <Link href='#contacts'>
-            <button className=' px-4 py-2  bg-primary '>Let's Work</button>
+            <button className=' px-4 py-2  bg-primary '>Let&apos;s Work</button>
           </Link>
         </div>
       </div>

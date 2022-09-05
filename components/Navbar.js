@@ -33,7 +33,7 @@ const Navbar = () => {
         <li>
           <Link href='#contacts'>
             <button className='bg-secondary py-2 px-4 text-bgColor font-bold rounded-md'>
-              Let's Work Together
+              Let&apos;s Work Together
             </button>
           </Link>
         </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <li>
             <Link href='#contacts'>
               <button className='bg-secondary py-2 px-4 mt-6 text-bgColor font-bold rounded-md'>
-                Let's Work Together
+                Let&apos;s Work Together
               </button>
             </Link>
           </li>

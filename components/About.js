@@ -33,8 +33,8 @@ const About = () => {
             commenced on 1<sup>st</sup> November 2020 and the dance crew changed
             to become a movement all over Kenya. Tianna and the crew started
             working in Public Events, School Events, Gyms, Roadshows and other
-            related jobs. It's purpose was and still is to inspire young talents
-            mainly through dancing thus the name{" "}
+            related jobs. It&apos;s purpose was and still is to inspire young
+            talents mainly through dancing thus the name{" "}
             <span className='text-secondary font-bold'>Dance-Inspiration</span>.
             Right now The DancepirationKE, consist of dancers in Thika and
             Nyeri. The Team is looking forward in perticipating in local TV

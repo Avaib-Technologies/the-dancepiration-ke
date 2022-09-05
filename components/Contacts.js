@@ -19,7 +19,7 @@ const contacts = () => {
       </h3>
       <div className='text-center'>
         <h2 className='text-center text-2xl mt-4 text-primary mb-4 font-semibold '>
-          Fill the form Let's Talk!
+          Fill the form Let&apos;s Talk!
         </h2>
       </div>
       <div className='grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 border-dashed border-t-2'>
@@ -29,7 +29,7 @@ const contacts = () => {
               text-left mx-auto px-3   font-bold'
             action=''
           >
-            <label className='text-secondary' for='Name'>
+            <label className='text-secondary' htmlFor='Name'>
               Name
             </label>
             <input
@@ -39,7 +39,7 @@ const contacts = () => {
               name='name'
               required
             />
-            <label className='text-secondary' for='email'>
+            <label className='text-secondary' htmlFor='email'>
               Email
             </label>
             <input
@@ -49,7 +49,7 @@ const contacts = () => {
               name='email'
               required
             />
-            <label className='text-secondary' for='message'>
+            <label className='text-secondary' htmlFor='message'>
               Message
             </label>
             <textarea
