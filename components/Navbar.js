@@ -18,20 +18,20 @@ const Navbar = () => {
           <Link href='/'>Home</Link>
         </li>
         <li className='p-4'>
-          <Link href='#about'>About</Link>
+          <Link href='/#about'>About</Link>
         </li>
         <li className='p-4'>
-          <Link href='#services'>Services</Link>
+          <Link href='/#services'>Services</Link>
         </li>
         <li className='p-4'>
           <Link href='/gallery'>Gallery</Link>
         </li>
 
         <li className='p-4'>
-          <Link href='#contacts'>Contacts</Link>
+          <Link href='/#contacts'>Contacts</Link>
         </li>
         <li>
-          <Link href='#contacts'>
+          <Link href='/#contacts'>
             <button className='bg-secondary py-2 px-4 text-bgColor font-bold rounded-md'>
               Let&apos;s Work Together
             </button>
@@ -57,20 +57,20 @@ const Navbar = () => {
             <Link href='/'>Home</Link>
           </li>
           <li className='px-4 py-6 border-b border-gray-600'>
-            <Link href='#about'>About</Link>
+            <Link href='/#about'>About</Link>
           </li>
           <li className='px-4 py-6 border-b border-gray-600'>
-            <Link href='#services'>Services</Link>
+            <Link href='/#services'>Services</Link>
           </li>
           <li className='px-4 py-6 border-b border-gray-600'>
             <Link href='/gallery'>Gallery</Link>
           </li>
 
           <li className='px-4 py-6 border-b border-gray-600'>
-            <Link href='#contacts'>Contacts</Link>
+            <Link href='/#contacts'>Contacts</Link>
           </li>
           <li>
-            <Link href='#contacts'>
+            <Link href='/#contacts'>
               <button className='bg-secondary py-2 px-4 mt-6 text-bgColor font-bold rounded-md'>
                 Let&apos;s Work Together
               </button>
