@@ -25,7 +25,7 @@ const contacts = () => {
       <div className='grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 border-dashed border-t-2'>
         <div className='w-full bg-background2 py-7 rounded-xl'>
           <form
-            action='https://formsubmit.co/c72649654df91be08978c60c8382ffba'
+            action='https://formsubmit.co/thedancepirationke@gmail.com'
             method='POST'
             className=' w-full flex flex-col items-left justify-evenly space-y-5
               text-left mx-auto px-3   font-bold'
