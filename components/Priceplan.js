@@ -89,7 +89,7 @@ const Priceplan = () => {
                 </li>
               ))}
             </ul>
-            <Link className='mx-auto' href={plan.title}>
+            <Link className='mx-auto' href='/#contacts'>
               <button
                 className={`  font-semibold mt-8 w-full px-6 py-4 rounded-lg text-center shadow-md 
             ${
