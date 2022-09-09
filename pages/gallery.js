@@ -9,7 +9,11 @@ export default function Gallery({ videoData }) {
       </h1>
       <div className='h:screen max-w-[1240px] mx-auto p-4 mt-12 grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 '>
         {videoData.map((video) => (
-          <YouTube videoId={video.videoId} description={video.description} />
+          <YouTube
+            key={video.videoId}
+            videoId={video.videoId}
+            description={video.description}
+          />
         ))}
       </div>
     </div>
