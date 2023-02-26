@@ -13,7 +13,9 @@ const About = () => {
         <div className='text-center '>
           <div className='bg-heroImg bg-top bg-contain bg-no-repeat rounded-full h-56 w-56 border-2 border-secondary mx-auto lg:flex-1'></div>
           <div className='border-2 border-secondary rounded-md py-2 px-4'>
-            <h2 className='text-secondary text-xl font-bold'>Emmy Tianna</h2>
+            <h2 className='text-secondary text-xl font-bold tracking-wide'>
+              Emmy Tianna
+            </h2>
             <p>Choreographer / Influencer / Actor / Poet / Musician</p>
             <p>C . E . O The DancepirationKE</p>
             <div className='mt-3'>
